@@ -1,0 +1,2 @@
+# sql
+MySQLをpythonで利用
