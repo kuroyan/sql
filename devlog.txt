@@ -1,0 +1,10 @@
+$pip3 install PyMySQL
+
+import pymysql.cursors
+
+MySQLで接続先はさくらVPSだからxyzの中のphpが示す自身の
+localhostではない。
+IPアドレスはドメイン名。
+sshで接続させることになる。そしてそれは公開鍵ではないパスワード付きでいいと思うが。
+簡単ではないんだな。sshでサーバーにログインしてlocalhostにポートフォワーディングしてなどどある。
+会社のものはtcp/ipだけでSSHは使用されていないようだ。
